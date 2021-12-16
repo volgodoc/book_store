@@ -55,4 +55,4 @@ Cross_cls_EC = explicit_20.until(
 Cross_cls_EC.click()
 
 time.sleep(5)
-# driver.quit()
+driver.quit()
