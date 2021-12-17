@@ -26,8 +26,8 @@ LogoAut_lnk = driver.find_element_by_link_text("Sign out").click()
 time.sleep(2)
 
 # Вход: почта - пароль - Login
-Mail_Area = driver.find_element_by_id("username").send_keys("110retrapakko@vusra.com")
-Pass_Area = driver.find_element_by_id("password").send_keys("110tap@rj219011IoE_")
+Mail_Area = driver.find_element_by_id("username").send_keys("111retrapakko@vusra.com")
+Pass_Area = driver.find_element_by_id("password").send_keys("111tap@rj219011IoE_")
 time.sleep(1)
 Logn_btn = driver.find_element_by_css_selector('input[value="Login"]').click()
 
