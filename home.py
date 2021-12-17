@@ -28,8 +28,8 @@ Revws_tab = driver.find_element_by_css_selector('a[href="#tab-reviews"]').click(
 # Пять звезд - поле - имя - почта - отправить.
 Stars_5 = driver.find_element_by_class_name('star-5').click()
 TxtArea = driver.find_element_by_id("comment").send_keys("Nice book!")
-NameArea = driver.find_element_by_id("author").send_keys("Frodo")
-MailArea = driver.find_element_by_id("email").send_keys("FrodoGood@mailinator.com")
+NameArea = driver.find_element_by_id("author").send_keys("Frododo")
+MailArea = driver.find_element_by_id("email").send_keys("FrododoGood@mailinator.com")
 Sub_btn = driver.find_element_by_id("submit").click()
 
 time.sleep(3)
